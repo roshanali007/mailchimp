@@ -58,6 +58,11 @@ nav li{
     width: 140px;
     padding: 3px 0px 0px 17px;
 }
+.mobile-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
 nav a{
     height: 100%;
     padding: 0 30px;
@@ -69,11 +74,17 @@ nav a{
 nav a:hover{
     background-color: #f0f0f0;
 }
+.mobilelogo{
+    display: flex;
+}
+.pricemenu{
+    display: flex;
+}
 .sidebar{
     position: fixed;
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 80vh;
     width: 250px;
     z-index: 999;
     background-color: white;
@@ -81,7 +92,7 @@ nav a:hover{
     display: none;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: space-between;
     gap: 30px;
     margin-top: 90px;
     padding-top:30px ;
@@ -100,47 +111,63 @@ nav a:hover{
     display: flex;
 }
  .dropdown {
-        position: relative;
-        display: inline-block;
-        border: 1px solid #ccc;
-        padding: 5px;
-        cursor: pointer;
-    }
-
-    .dropcontent {
-        display: none; /* Hide the full dropdown by default */
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-
-    .dropdown:hover .dropcontent {
-        display: block; /* Show the dropdown on hover */
-    }
-
-    #languageSelect {
-        width: 100%;
-        padding: 5px;
-        border: none;
-        background-color: transparent;
-        cursor: pointer;
-    }
-
-    .world {
-        display: flex;
-        align-items: center;
-    }
-
-    .world span {
-        margin-right: 5px;
-        font-size: 15px;
-    }
-    .right-end li{
-        list-style-type:  none; 
-
-    }
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 5px;
+    cursor: pointer;
+}
+.dropcontent {
+    display: none; 
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropcontent {
+    display: block; 
+}
+#languageSelect {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.world {
+    display: flex;
+    align-items: center;
+}
+.world span {
+    margin-right: 5px;
+    font-size: 15px;
+}
+.right-end li{
+    list-style-type:  none; 
+}
+.log-in a{
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 26px;
+    padding: 15px 30px;
+}
+.sign-up{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sign-up a{
+    background-color: #ffe01b;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 26px;
+    padding: 15px 30px;
+}
+.nav_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 @media screen and (max-width: 800px){
     .hideonmobile{
         display: none;
@@ -148,7 +175,33 @@ nav a:hover{
     .menu-btn{
     display: flex;
     }
-    .mc_logo li:nth-child(6) {
-         margin-left: auto;
+    .log-in a{
+        padding: 8px 30px;
+        width: fit-content;
     }
+    .sign-up a{
+        padding: 7px 30px;
+        width: fit-content;
+    }
+    .end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+    }
+    .top li{
+    padding: 20px 0px;
+    }
+
+    .end li{
+        padding: 15px 0px;
+    }
+    .mobile-right {
+        margin-left: auto;
+        display: flex;
+    }
+    .left-end{
+        width: -webkit-fill-available;
+    }
+
 }
