@@ -1,0 +1,41 @@
+body{
+    font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    line-height: 1.35;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.top_section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.brandLogoIntuit{
+    padding: 7px 20px;
+}
+.coBrandedNav  svg path:not(.svg_logo) {
+    fill: #575757;
+}
+.brandLogoMailchimp{
+    padding-left: 20px;
+}
+aside{
+    font-size: .8125rem;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    background-color: #231e15;
+    height: auto;
+    padding: .75rem 1rem;
+    align-items: center;
+    justify-content: center;
+}
+aside a{
+    color: #fff;
+    border-bottom: .0625rem dashed;
+    text-decoration: none;
+}
+aside a:hover{
+    border-bottom: none;
+}
