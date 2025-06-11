@@ -312,6 +312,78 @@ nav a:hover{
     display: flex;
     flex-direction: row;
 }
+.right_section ul{
+    list-style-type: none;
+}
+.right_section .pad{
+    padding-top: 10px;
+}
+.left_section .pad{
+    padding-top: 10px;
+}
+.right_top{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.right_top p{
+    font-size: 15px;
+}
+.section_top p{
+    font-size: 30px;
+}
+.logos p{
+    padding-bottom: 20px;
+}
+.resource_left{
+    width: 50%;
+}
+.res_top{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.res_down{
+    
+    display: flex;
+    justify-content: space-between
+}
+.alignlines1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px 20px 15px
+}
+.alignlines1 img{
+    width: 1.175rem;
+    padding-right: 1rem;
+    height: 1.15rem;
+}
+.first_list p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.res_top p{
+    font-size: 40px;
+}
+.res_down ul,.resource_right ul{
+    list-style-type: none;
+}
+.first_list .pad{
+    padding-top: 20px;
+}
+.second_list p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.second_list .pad{
+    padding-top: 20px;
+}
+.resource_right{
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
 @media screen and (max-width: 800px){
     .hideonmobile{
         display: none;

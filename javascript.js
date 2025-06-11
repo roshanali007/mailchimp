@@ -19,7 +19,16 @@ function closesidebar(){
     });
 
 function toggleDropdown(button) {
-    const item = button.parentElement;
-    item.classList.toggle("open");
+    
+    const allDropdownItems = document.querySelectorAll(".dropdown-item");
+    allDropdownItems.forEach(item => {
+        if (item !== button.parentElement) {
+            item.classList.remove("open");
+        }
+    });
+
+    
+    button.parentElement.classList.toggle("open");
 }
+
 
