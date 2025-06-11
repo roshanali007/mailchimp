@@ -1,5 +1,6 @@
 body{
-    font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+     font-family: Means Web, Georgia, Times, Times New Roman, serif;
+   
     line-height: 1.35;
     min-height: 100vh;
 }
@@ -43,7 +44,7 @@ aside a:hover{
 nav{
     background-color: white;
 }
-nav ul{
+nav .mc_logo{
     width: 100%;
     list-style: none;
     display: flex;
@@ -51,9 +52,21 @@ nav ul{
     align-items: center;
     /* gap: 30px; */
 }
-nav li{
-    /* height: 50px;    */
+nav .right-flex{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+.solution ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .mc_logo svg{
     width: 140px;
     padding: 3px 0px 0px 17px;
@@ -170,6 +183,7 @@ nav a:hover{
 }
 .dropdown-item {
     position: relative;
+    padding-left: 20px;
 }
 
 .dropdown-btn {
@@ -196,7 +210,7 @@ nav a:hover{
     left: 0;
     z-index: 10;
     min-width: 200px;
-    width: 100vw;
+    width: 90vw;
     top: 50px;
     left: -150px;
     height: 70vh;
@@ -223,21 +237,21 @@ nav a:hover{
         display: flex;
     justify-content: center;
     align-items: center;
+    /* margin-left: -250px; */
 }
-
 .alignlines{
     display: flex;
+    padding: 35px;
+    align-items: center;
+    justify-content: flex-start;
 }
 .alignlines img {
-    width: 1.375rem;
+    width: 1.875rem;
     padding-right: 1rem;
-     height: 1.15rem;
-}
-.industry{
-        background-color: aliceblue;
+    height: 1.45rem;
 }
 .industry li , .industry h4{
-    padding-top: 30px;
+    padding-top: 35px;
     padding-left: 20px;
 }
 .industry ul{
@@ -245,6 +259,58 @@ nav a:hover{
     flex-direction: column;
     justify-content: flex-start;
     align-items: baseline;
+}
+.email h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+.arrow_forward{
+        padding: 5px;
+    background-color: #ffe01b;
+    border-radius: 100%;
+}
+.align{
+    margin-left: auto;
+}
+.para{
+        color: rgba(30, 35, 21, 0.65);
+}
+.left_section{
+    width: 50%;
+    float: left;
+}
+.left_section .section_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos img{
+    width: 3.175rem;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0 .25rem .75rem rgba(36, 28, 21, .12);
+    border-radius: .5rem;
+}
+.logos ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.logo-side{
+    flex-direction: column;
+     list-style-type: none;
+}
+.logo-side p{
+    padding: 10px;
+}
+.left_section .section_down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intregration-con{
+    display: flex;
+    flex-direction: row;
 }
 @media screen and (max-width: 800px){
     .hideonmobile{
@@ -255,11 +321,17 @@ nav a:hover{
     }
     .log-in a{
         padding: 8px 30px;
-        width: fit-content;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .sign-up a{
         padding: 7px 30px;
-        width: fit-content;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .end{
     display: flex;
