@@ -17,3 +17,9 @@ function closesidebar(){
     document.addEventListener('DOMContentLoaded', (event) => {
         updateSelectedLanguage();
     });
+
+function toggleDropdown(button) {
+    const item = button.parentElement;
+    item.classList.toggle("open");
+}
+
