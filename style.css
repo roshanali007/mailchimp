@@ -591,6 +591,42 @@ nav a:hover{
         font-size: 1.5rem;
         color: #231e15;
 }
+.offer .offer-head{
+    display: flex;
+    background-color: #fff;
+    height: 60vh;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.offer .left-list li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+}
+.offer .left-list li a{
+    padding: 5px;
+    background-color: #ffe01b;
+    border-radius: 100%;
+}
+.offer .left-list{
+    display: flex;
+    justify-content: space-around;
+}
+.offer .left-offer .alignlines2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+.alignlines2 a{
+    text-decoration: none;
+    color: #231e15;
+}
+.offer .left-offer h2{
+    font-size: 3.5rem;
+    font-weight: 500;
+}
 @media screen and (max-width: 800px){
     .hideonmobile{
         display: none;
