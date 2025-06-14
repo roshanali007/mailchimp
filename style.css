@@ -916,7 +916,7 @@ footer{
 }
 .Related{
     height: 20vh;
-    border-bottom: 1px solid brown
+    border-bottom: 3px solid rgba(35, 30, 21, .3);
 }
 .Related ul{
     display: flex;
@@ -933,6 +933,62 @@ footer{
 .Related ul a{
     color: #231e15;
     font-size: 1.1rem;
+}
+.Related ul a:hover{
+    background-color:rgb(247, 198, 50) ;
+}
+.footer-midhd{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-mid{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+.footer-mid ul li{
+    list-style-type: none;
+    padding-top: 1.5rem;
+}
+.footer-mid ul li a{
+    color: #231e15;
+    font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+.footer-mid ul li a:hover{
+    background-color: rgb(247, 198, 50);
+}
+.check-it img{
+    width: 250px;
+    height: 50px;
+}
+.footer-mid .products p,.footer-mid .resources p,.footer-mid .community p, .footer-mid .company p,.footer-mid .help p{
+    font-size: 1.5rem;
+    padding-bottom: 1.60rem;
+    font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+}
+.check-it{
+        width: 25%;
+}
+.check-it p{
+    font-size: 1.2rem;
+    width: 68%;
+    padding-top: 20px;
+}
+.check-it .alignlines3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.check-it .alignlines3 a{
+    text-decoration: none;
+    color: #45423c;
+    font-size: 1.2rem;
+    font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 600;
 }
 @media screen and (max-width: 800px){
     .hideonmobile{
