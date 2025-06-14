@@ -709,7 +709,7 @@ nav a:hover{
 .ofright-down p {
     font-size: 1.5rem;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
 }
 
@@ -737,56 +737,42 @@ nav a:hover{
     font-family: Means Web, Georgia, Times, Times New Roman, serif;
     border: none;
 }
-
 .starts-at {
     margin-top: 20px;
     font-family: Arial, sans-serif;
 }
-
-/* Line: "Starts at" */
 .starts-at .start span {
     font-size: 1.2rem;
     color: #333;
 }
-
-/* Container to align both prices horizontally */
 .price-row {
     display: flex;
     align-items: baseline;
     gap: 10px;
     margin: 5px 0;
 }
-
-/* Original price (struck-through) */
 .overline {
     text-decoration: line-through;
     color: #999;
     font-size: 35px;
     font-family: Means Web, Georgia, Times, Times New Roman, serif;
 }
-
 .discounted {
     font-size: 40px;
     font-weight: bold;
     color: #000;
     font-family: Means Web, Georgia, Times, Times New Roman, serif;
 }
-
-
 .permonth {
     font-size: 1.2rem;
     color: #333;
 }
-
-
 .then span {
     font-size: 1.2rem;
     color: #333;
     display: block;
     margin-top: 5px;
 }
-
-
 .buy-now a {
     display: block;
     background-color: #ffd900;
@@ -801,7 +787,6 @@ nav a:hover{
     transition: background-color 0.3s ease;
     border: 1px solid;
 }
-
 .buy-now a:hover {
     background-color: #ffcc00;
 }
@@ -840,6 +825,63 @@ nav a:hover{
 }
 .overages:hover{
     background-color: #ffcc00;
+}
+.integration-section {
+    padding: 100px 150px;
+    margin: auto;
+}
+
+.integration-section h2 {
+    font-size: 3.5em;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 1.2;
+    width: 45%;
+}
+
+.integration-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    gap: 0px;
+}
+
+.integration-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 25px;
+    font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+}
+
+.integration-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.integration-item h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0;
+}
+.integration-item:hover{
+    background-color: #f7eeee;
+}
+.integration-item p {
+    margin: 4px 0 0;
+    font-size: 1.2rem;
+    color: rgba(35, 30, 21, .65);;
+    width: 80%;
+}
+.integration-section .alignlines2{
+    padding-top: 100px;
+}
+.integration-item a{
+    text-decoration: none;
+    color: #231e15;
+}
+.integration-item:hover a{
+    text-decoration: underline;
 }
 @media screen and (max-width: 800px){
     .hideonmobile{
