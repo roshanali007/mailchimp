@@ -883,6 +883,57 @@ nav a:hover{
 .integration-item:hover a{
     text-decoration: underline;
 }
+.millions{
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #231e15;
+}
+.millihd h2{
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: 0 15%;
+    text-align: center;
+    color: #f6f6f6;
+} 
+.millihd .cen{
+    text-align: center;
+    padding-top: 4%;
+    font-size: 20px;
+}
+.disclaimer{
+    height: 40vh;
+    width: 100%;
+}
+.disclaimer .disclaimer-list{
+    padding: 2% 10%;
+    font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    color: #231e15;
+}
+footer{
+    background-color: #e6b95f;
+}
+.Related{
+    height: 20vh;
+    border-bottom: 1px solid brown
+}
+.Related ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+    gap: 4rem;
+    font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+}
+.Related ul p{
+    font-size: 1.5rem;
+}
+.Related ul a{
+    color: #231e15;
+    font-size: 1.1rem;
+}
 @media screen and (max-width: 800px){
     .hideonmobile{
         display: none;
