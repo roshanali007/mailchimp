@@ -942,6 +942,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid rgba(35, 30, 21, .3);
 }
 .footer-mid{
     display: flex;
@@ -990,6 +991,102 @@ footer{
     font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
     font-weight: 600;
 }
+.footer-last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    gap: 60px
+}
+.footer-last .intuit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px
+}
+.footer-last .playstore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 135px;
+}
+.playstore .appstore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.playstore .socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.footer-last .copyrights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 460px;
+    font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+}
+.copyrights .privacy ul{
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+}
+.intuit .svg1 svg,.intuit .svg2 svg,.intuit .svg5 svg{
+    width: 120px;
+    height: auto;
+}
+.intuit .svg3 svg,.intuit .svg4 svg{
+    width: 140px;
+    height: auto;
+}
+.playstore .appstore img{
+    width: 170px;
+    height: auto;
+}
+.playstore .socialmedia img{
+    width: 35px;
+    height: auto;
+}
+.playstore .gdpr img{
+    width: 140px;
+    height: auto;
+}
+.translate select{
+    width: 300px;
+    height: 60px;
+    color: #231e15;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    padding: 10px;
+    background-color: #e6b95f;
+    font-weight: 600;
+}
+.translate select:hover{
+    background-color: #f6f6f6;
+}
+.rights-hd .rights p{
+    color: #231e15;
+    font-size: 15px;
+}
+.rights-hd .privacy li a{
+    color: #231e15;
+    font-weight: 800;
+    font-size: 15px;
+    
+}
+.rights-hd .privacy li a:hover{
+    background-color: rgb(247, 198, 50);
+}
+.rights-hd .privacy .sideline a{
+    border-right: 2px solid;
+    padding-right: 5px;
+}
+
 @media screen and (max-width: 800px){
     .hideonmobile{
         display: none;
