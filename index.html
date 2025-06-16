@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
-    <div class="chat">
+    <div class="chat desktop">
         <div class="chat-container">
             <img src="https://images.ctfassets.net/yzco4xsimv0y/4kuRsuUkHSilzVzVzSvixD/e46e67e2f875a843d2e334b31c3e9895/conversation-fill.png" alt="Chat Icon">
             <h6>Chat with Sales</h6>
@@ -301,7 +301,7 @@
                             <li class="hideonmobile"><a href="#">Switch to Mailchimp</a></li>
                        
                         <div class="mobile-right">
-                            <li><a href="#">pricing</a></li>
+                            <li class="desktop"><a href="#">pricing</a></li>
                             <li class="menu-btn" onclick="showsidebar()">
                                 <a href="#"><span class="material-symbols-outlined">menu</span></a>
                             </li>
@@ -310,8 +310,8 @@
                 </div>
                 <div class="right-end">
                     <ul class="right-flex">
-                        <li class="hideonmobile"><a href="#"><span class="material-symbols-outlined">search</span></a></li>
-                        <li class="hideonmobile">
+                        <li class="hideonmobile hideon1440px"><a href="#"><span class="material-symbols-outlined">search</span></a></li>
+                        <li class="hideonmobile hideon1440px">
                             <div class="dropdowndiv">
                                 <div class="dropdown" style="background-color: white; ">
                                         <div class="world"><span class="material-symbols-outlined" style="padding-left: 6px;">language</span>
@@ -330,8 +330,12 @@
                             </div>
                         </li>
                         <li class="hideonmobile"><a href="#">Sales:+1(855) 529-3109</a></li>
+                        <li class="price1440px"><a href="#">pricing</a></li>
                         <li class="log-in hideonmobile"><a href="#">Log In</a></li>
-                        <li class="sign-up hideonmobile"><a href="#">Sign Up</a></li>
+                        <li class="menu1440px-btn" onclick="showsidebar()">
+                                <a href="#"><span class="material-symbols-outlined">menu</span></a>
+                        </li>
+                        <li class="sign-up hideonmobile hideon1440px"><a href="#">Sign Up</a></li>
                     </ul>
                 </div>
                 <ul class="sidebar">
@@ -616,7 +620,7 @@
                 </div>
             </div>
         </div>
-        <div class="alignlines2"><a class="align1" href="">View all 300+ integrations</a><a href=""><span class="material-symbols-outlined arrow_forward">arrow_forward</span></a></div>
+        <div class="alignlines2"><a class="align1" href="">View all 300+ integrations<span class="material-symbols-outlined arrow_forward">arrow_forward</span></a></div>
     </section>
     <section class="millions">
         <div class="millihd">
@@ -657,65 +661,65 @@
                 </ul>
             </div>
             <div class="footer-midhd">
-                <div class="footer-mid">
-                    <div class="products">
-                        <p>Products</p>
-                        <ul>
-                            <li><a href="">Why Mailchimp?</a></li>
-                            <li><a href="">Product Updates</a></li>
-                            <li><a href="">Email Marketing</a></li>
-                            <li><a href="">Websites</a></li>
-                            <li><a href="">Transactional Email</a></li>
-                            <li><a href="">How We Compare</a></li>
-                            <li><a href="">GDPR Compliance</a></li>
-                            <li><a href="">Security</a></li>
-                            <li><a href="">Status</a></li>
-                            <li><a href="">Mobile App</a></li>
-                        </ul>
-                    </div>
-                    <div class="resources">
-                        <p>Resources</p>
-                        <ul>
-                            <li><a href="">Marketing Library</a></li>
-                            <li><a href="">Free Marketing Tools</a></li>
-                            <li><a href="">Marketing Glossary</a></li>
-                            <li><a href="">Integrations Directory</a></li>
-                        </ul>
-                    </div>
-                    <div class="community">
-                        <p>Community</p>
-                        <ul>
-                            <li><a href="">Agencies & Freelancers</a></li>
-                            <li><a href="">Developers</a></li>
-                            <li><a href="">Events</a></li>
-                        </ul>
-                    </div>
-                    <div class="company">
-                        <p>Company</p>
-                        <ul>
-                            <li><a href="">Our Story</a></li>
-                            <li><a href="">Newsroom</a></li>
-                            <li><a href="">Give Where You Live</a></li>
-                            <li><a href="">Careers</a></li>
-                            <li><a href="">Accessibility</a></li>
-                        </ul>
-                    </div>
-                    <div class="help">
-                        <p>Help</p>
-                        <ul>
-                            <li><a href="">Contact Us</a></li>
-                            <li><a href="">Hire an Expert</a></li>
-                            <li><a href="">Help Center</a></li>
-                            <li><a href="">Talk to Sales</a></li>
-                    </div>
-                    <div class="check-it">
-                        <div>
-                            <img src="https://mailchimp.com/ctf/images/yzco4xsimv0y/73ZAoe8O3Y7SXQLeCNTq5u/8ddf1f63b4abdf7f67149d3a9d74a0bd/MCP.svg?w=260&q=70" alt="">
+                    <div class="footer-mid">
+                        <div class="products">
+                            <p>Products</p>
+                            <ul>
+                                <li><a href="">Why Mailchimp?</a></li>
+                                <li><a href="">Product Updates</a></li>
+                                <li><a href="">Email Marketing</a></li>
+                                <li><a href="">Websites</a></li>
+                                <li><a href="">Transactional Email</a></li>
+                                <li><a href="">How We Compare</a></li>
+                                <li><a href="">GDPR Compliance</a></li>
+                                <li><a href="">Security</a></li>
+                                <li><a href="">Status</a></li>
+                                <li><a href="">Mobile App</a></li>
+                            </ul>
                         </div>
-                        <p>Films, podcasts, and original series that celebrate the entrepreneurial spirit.</p>
-                        <div class="alignlines3"><a class="align1" href="">Check it out<span class="material-symbols-outlined arrow_forward">arrow_forward</span></a></div>
+                        <div class="resources">
+                            <p>Resources</p>
+                            <ul>
+                                <li><a href="">Marketing Library</a></li>
+                                <li><a href="">Free Marketing Tools</a></li>
+                                <li><a href="">Marketing Glossary</a></li>
+                                <li><a href="">Integrations Directory</a></li>
+                            </ul>
+                        </div>
+                        <div class="community">
+                            <p>Community</p>
+                            <ul>
+                                <li><a href="">Agencies & Freelancers</a></li>
+                                <li><a href="">Developers</a></li>
+                                <li><a href="">Events</a></li>
+                            </ul>
+                        </div>
+                        <div class="company">
+                            <p>Company</p>
+                            <ul>
+                                <li><a href="">Our Story</a></li>
+                                <li><a href="">Newsroom</a></li>
+                                <li><a href="">Give Where You Live</a></li>
+                                <li><a href="">Careers</a></li>
+                                <li><a href="">Accessibility</a></li>
+                            </ul>
+                        </div>
+                        <div class="help">
+                            <p>Help</p>
+                            <ul>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Hire an Expert</a></li>
+                                <li><a href="">Help Center</a></li>
+                                <li><a href="">Talk to Sales</a></li>
+                        </div>
+                        <div class="check-it">
+                            <div>
+                                <img src="https://mailchimp.com/ctf/images/yzco4xsimv0y/73ZAoe8O3Y7SXQLeCNTq5u/8ddf1f63b4abdf7f67149d3a9d74a0bd/MCP.svg?w=260&q=70" alt="">
+                            </div>
+                            <p>Films, podcasts, and original series that celebrate the entrepreneurial spirit.</p>
+                            <div class="alignlines3"><a class="align1" href="">Check it out<span class="material-symbols-outlined arrow_forward">arrow_forward</span></a></div>
+                        </div>
                     </div>
-                </div>
             </div>
             <div class="footer-last">
                 <div class="intuit">

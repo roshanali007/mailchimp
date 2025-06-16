@@ -1,6 +1,5 @@
 body{
      font-family: Means Web, Georgia, Times, Times New Roman, serif;
-   
     line-height: 1.35;
     min-height: 100vh;
 }
@@ -1276,6 +1275,7 @@ footer{
     gap: 40px;
     padding: 0px 460px;
     font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    width: -webkit-fill-available;
 }
 .copyrights .privacy ul{
     display: flex;
@@ -1332,7 +1332,257 @@ footer{
     border-right: 2px solid;
     padding-right: 5px;
 }
+.menu1440px-btn{
+    display: none;
+   }
+.price1440px{
+    display: none;
+}
+@media screen and (max-width: 1740px) {
+   .hideon1440px{
+        display: none;
+   } 
+   .menu1440px-btn{
+    display: flex;
+   }
+   .top_section{
+    display: none;
+   }
+   .price1440px{
+    display: flex;
+   }
+   .dropdown-btn{
+    font-size: 1rem;
+   }
+   .desktop{
+    display: none;
+   }
+   nav a{
+    font-size: 1rem;
+    padding: 0 15px;
+   }
+   .e-con h1{
+    font-size: 3rem;
+   }
+   .e-con p{
+    font-size: 1.8rem;
+   }
+   .e-con a{
+    font-size: 1.2rem;
+   }
+   .img-container h2{
+    top: 20px;
+    left: 50px;
+    font-size: 1.75rem;
+   }
+   .exp-container .auto p{
+    font-size: 1.2rem;
+    padding: 0px 25px;
+   }
+   .exp-container.auto .move-up a{
+        font-size: 1rem;
+   }
+   .find h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+   }
+   .find {
+        width: 30%;
+    }
+    .find p {
+        font-size: 1.75rem
 
+    }
+    .upto h3, .exp h3 {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .upto p, .exp p {
+        font-size: 1.2rem;
+    }
+    .left-det h2{
+        font-size: 2.5rem;
+    }
+    .left-det a,.left-det p{
+        font-size: 1.3rem;
+    }
+    .offer .left-offer h2{
+        font-size: 3rem;
+    }
+    .left-para p ,.left-offer ul p, .alignlines2 a {
+        font-size: 1.2rem;
+    }
+    #currency{
+        padding: 40px 20px 0px 34px;
+        height: 70px;
+    }
+    .ofright-down h2{
+        font-size: 2.5rem;
+    }
+    .ofright-down p{
+        font-size: 1.2rem;
+    }
+    .offer-righthd{
+        width: 30vw;
+    }
+    #money{
+        font-size: 2rem;
+        padding: 14px 0px 15px 100px;
+    }
+    .starts-at .start span{
+        font-size: 1rem;
+    }
+    .overline{
+        font-size: 2rem;
+        
+    }
+    .discounted{
+        font-weight: 400;
+        font-size: 2.5rem;
+
+    }
+    .permonth ,.then span,.ofright-down > div:last-child p{
+        font-size: 1rem;
+    }
+    .ofright-down{
+        height: 45vh;
+        padding: 30px 15px;
+    }
+    .offer .offer-head{
+        height: 62vh;
+    }
+    .personalized-pt {
+        height: 50vh;
+    }
+    .ppt-det{
+        height: 50vh;
+    }
+    .integration-section h2{
+        font-size: 2.5rem;
+        width: 65%;
+    }
+    .integration-item img {
+        width: 120px;
+        height: 120px;
+    }
+    .integration-item p{
+        font-size: 1rem;
+        width: 100%;
+
+    }
+    .integration-item h3 {
+        font-size: 1.2em;
+    }
+    .integration-grid{
+        gap: 30px;
+        padding: 20px
+    }
+    .integration-item{
+        padding: 0px;
+    }
+    .integration-section {
+        padding: 50px 50px;
+    }
+    .integration-section .alignlines2 {
+        padding-top: 45px;
+    }
+    .millihd h2 {
+        font-size: 2.5rem;
+    }
+    .sign-up a{
+        font-size: 1.1rem;
+    }
+    .disclaimer .disclaimer-list{
+        font-size: 0.8rem;
+    }
+    .disclaimer {
+        height: 37vh;
+    }
+    .Related ul{
+        flex-wrap: wrap;
+        row-gap: 15px;
+        padding: 40px 0;
+    }
+    .Related{
+        height: auto;
+    }
+    .Related ul p{
+        font-size: 1.2rem;
+
+    }
+    .Related ul a{
+        font-size: 1rem;
+    }
+    .footer-mid .products p, .footer-mid .resources p, .footer-mid .community p, .footer-mid .company p, .footer-mid .help p {
+        font-size: 1.2rem;
+        padding-bottom: 0px;
+    }
+    .footer-mid ul li a {
+        font-size: 1rem;
+    }
+    .check-it img {
+        width: 180px;
+    }
+    .check-it p {
+        font-size: 1rem;
+        width: 90%;
+    }
+    .check-it{
+        margin-top: -12px;
+         width: 21%;
+    }
+    .footer-mid{
+        gap: 30px;
+    }
+    .check-it .alignlines3 a{
+        font-size: 1rem;
+    }
+    .intuit .svg1 svg, .intuit .svg2 svg, .intuit .svg5 svg {
+        width: 85px;
+    }
+    .intuit .svg3 svg, .intuit .svg4 svg {
+        width: 100px;
+    }
+    .footer-midhd {
+        height: 50vh;
+    }
+    .footer-last{
+        gap: 30px;
+    }
+    .playstore .appstore img {
+        width: 120px;
+    }
+    .playstore .socialmedia img {
+        width: 25px;
+    }
+    .playstore .gdpr img {
+        width: 120px;
+    }
+    .footer-last .playstore{
+        gap: 50px;
+    }
+    .playstore .appstore{
+        gap: 15px;
+    }
+    .playstore .socialmedia{
+        gap: 30px
+    }
+    .translate select {
+        width: 200px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    .rights-para p{
+        font-size: 0.75rem;
+    }
+    .rights-hd .privacy li a{
+        font-weight: 700;
+        font-size: 0.75rem;
+    }
+    .footer-last .copyrights{
+        padding: 0px 290px
+    }
+}
 @media screen and (max-width: 800px){
     .hideonmobile{
         display: none;
