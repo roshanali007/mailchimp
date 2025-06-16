@@ -545,7 +545,7 @@ nav a:hover{
   transform: scale(1.1);
 }
 .explore {
-    height: 30vh;
+    height: auto;
     overflow: visible;
 }
 .exp-container {
@@ -1338,6 +1338,12 @@ footer{
 .price1440px{
     display: none;
 }
+.mobile-img{
+    display: none;
+}
+.hidedesktop{
+    display: none;
+}
 @media screen and (max-width: 1740px) {
    .hideon1440px{
         display: none;
@@ -1582,6 +1588,236 @@ footer{
     .footer-last .copyrights{
         padding: 0px 290px
     }
+}
+@media screen and (max-width: 1350px){
+    .hideon1350px{
+        display: none;
+    }
+} 
+@media screen and (max-width: 1150px){
+    .hideon1150px{
+        display: none;
+    }
+    .mobile-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    aside {
+        font-size: 1rem;
+    }
+    .email1 .e-wrap {
+        margin: 0px 8%;
+    }
+    .e-con h1 {
+        font-size: 4rem;
+    }
+    .images .img-container{
+        grid-template-columns: repeat(2, 50%);
+    }
+    .zoom-container img{
+        width: 400px;
+        height: auto;
+    }
+    .zoom-container{
+        padding-top: 120px;
+    }
+    .auto{
+        gap: 20px;
+        padding: 45px;
+        height: auto;
+    }
+    .img-container h2{
+        font-size: 2rem;
+        width: 74%;
+    }
+    .zoom-container img {
+        transition: none;
+    }
+    .zoom-container:hover img{
+        transform: none;
+    }
+    .exp-container .auto p {
+        font-size: 1.5rem;
+    }
+    .con-hd {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .details {
+        height: 100vh;
+    }
+    .find {
+        width: auto;
+        padding: 75px 175px;
+    }
+    .con-hd .upto, .con-hd .exp{
+        height: auto;
+        width: 35%;
+        gap: 50px;
+    }
+    .find h2 {
+        font-size: 3rem;
+    }
+     .find p {
+        font-size: 2.2rem;
+        font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    }
+    .upto h3, .exp h3 {
+        font-size: 2rem;
+        font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    }
+    .upto p, .exp p {
+        font-size: 1.5rem;
+        font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    }
+    .ppt-det{
+        flex-direction: column;
+    }
+    .left-det{
+        width: auto;
+        padding: 50px 100px;
+    }
+    .personalized-pt {
+        height: 90vh;
+    }
+    .ppt-det .right-det img {
+        width: 80vw;
+    }
+    .left-det a, .left-det p {
+        font-size: 1.5rem;
+    }
+    .left-det h2 {
+        font-size: 3rem;
+    }
+    .offer .left-list {
+        display: none;
+    }
+    .offer .left-offer .alignlines2{
+        display: none;
+    }
+    .offer .offer-head{
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .offer-righthd {
+        width: auto;
+    }
+    .offer .left-offer {
+        width: auto;
+        padding: 50px 90px;
+        text-align: center;
+    }
+    .hidepara{
+        display: none;
+    }
+    .hidedesktop{
+        display: block;
+    }
+    .left-para p, .left-offer ul p, .alignlines2 a {
+        font-size: 1.5rem;
+    }
+    .order-change{
+        display: flex;
+        padding: 90px;
+    }
+    .integration-grid{
+        grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+        gap: 0px;
+        padding: 0px;
+    }
+    .Zapier{
+        display: none;
+    }
+    .integration-section h2 {
+        font-size: 3rem;
+        width: 75%;
+    }
+    .integration-item img {
+        width: 140px;
+        height: 140px;
+        padding: 40px;
+    }
+    .integration-item h3 {
+        font-size: 1.5em;
+    }
+    .integration-item p {
+        font-size: 1.3rem;
+    }
+    .integration-app{
+        padding: 40px 0 0 0;
+    }
+    .millihd h2 {
+        font-size: 3rem;
+        margin: 0 12%;
+    }
+    .disclaimer {
+        height: 70vh;
+    }
+    .disclaimer .disclaimer-list {
+        font-size: 1.05rem;
+    }
+    .footer-mid {
+        gap: 0px; 
+        flex-flow: wrap;
+    }
+    .footer-midhd {
+        height: auto;
+    }
+    .footer-mid .products,.footer-mid .resources,.footer-mid .community,.footer-mid .company,.footer-mid .help,.footer-mid .check-it{
+        padding: 40px 60px;
+    }
+    .footer-mid .products p, .footer-mid .resources p, .footer-mid .community p, .footer-mid .company p, .footer-mid .help p {
+        font-size: 1.5rem;
+    }
+    .footer-mid ul li a {
+        font-size: 1.1rem;
+    }
+    .check-it img {
+        width: 300px;
+        height: auto;
+    }
+    .check-it p {
+        font-size: 1.2rem;
+        width: auto;
+    }
+    .check-it{
+         width: 23%;
+    }
+    .footer-last .community{
+        width: 18%;
+    }
+    .check-it .alignlines3 a {
+        font-size: 1.3rem;
+    }
+    .footer-last .copyrights {
+        padding: 0px 100px;
+        align-items: flex-start;
+    }
+    .translate select {
+        width: 200px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+    .rights-para p,.rights-hd .privacy li a  {
+        font-size: 1rem;
+    }
+    .intuit .svg1 svg, .intuit .svg2 svg, .intuit .svg5 svg {
+        width: 110px;
+    }
+        .intuit .svg3 svg, .intuit .svg4 svg {
+        width: 130px;
+    }
+    .playstore .socialmedia img {
+        width: 33px;
+    }
+    .playstore .gdpr img {
+        width: 130px;
+    }
+    
 }
 @media screen and (max-width: 800px){
     .hideonmobile{
