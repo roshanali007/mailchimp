@@ -1398,7 +1398,7 @@ footer{
     .side-signup{
         padding: 0 0 12px 0; 
     }
-    .log-in a{
+    .side-login a{
         padding: 5px 30px;
         width: auto;
         display: flex;
@@ -1447,20 +1447,23 @@ footer{
     display: flex;
    }
    .dropdown-btn{
-    font-size: 1rem;
+    font-size: .8125rem;
    }
    .desktop{
     display: none;
    }
    nav a{
-    font-size: 1rem;
+    font-size: .8125rem;
     padding: 0 15px;
    }
    .e-con h1{
-    font-size: 3rem;
+    font-size: 3.3vw;
+   }
+   .email1 .email-con {
+    padding: 60px 0;
    }
    .e-con p{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
    }
    .e-con a{
     font-size: 1.2rem;
@@ -1468,24 +1471,29 @@ footer{
    .img-container h2{
     top: 20px;
     left: 50px;
-    font-size: 1.75rem;
+    font-size: 1.75vw;
    }
    .exp-container .auto p{
-    font-size: 1.2rem;
-    padding: 35px 25px;
+    font-size: 1rem;
+   }
+   .auto{
+    margin: 30px;
+   }
+   .move-up{
+    margin-bottom: 10px;
    }
    .exp-container.auto .move-up a{
         font-size: 1rem;
    }
    .find h2{
-    font-size: 2.5rem;
+    font-size: 2.75vw;
     font-weight: 400;
    }
    .find {
         width: 30%;
     }
     .find p {
-        font-size: 1.75rem
+        font-size: 1.5rem
 
     }
     .upto h3, .exp h3 {
@@ -1493,70 +1501,69 @@ footer{
         font-weight: 400;
     }
     .upto p, .exp p {
-        font-size: 1.2rem;
+        font-size: 1em;
+    }
+    .con-hd{
+        justify-content: space-around;
+        gap: 0;
     }
     .left-det h2{
         font-size: 2.5rem;
     }
+    .left-det p{
+        padding: 20px 0px 0 0;
+    }
     .left-det a,.left-det p{
-        font-size: 1.3rem;
+        font-size: 1em;
+    }
+    .ppt-det{
+        justify-content: space-around;
+        gap: 0;
+    }
+    .offer .offer-head {
+        justify-content: space-around;
     }
     .offer .left-offer h2{
-        font-size: 3rem;
+        font-size: 3.3vw;
     }
-    .left-para p ,.left-offer ul p, .alignlines2 a {
-        font-size: 1.2rem;
+    .left-para p , .alignlines2 a {
+        font-size: 1rem;
+        padding-right: 0;
     }
     #currency{
         padding: 40px 20px 0px 34px;
         height: 70px;
     }
     .ofright-down h2{
-        font-size: 2.5rem;
-    }
-    .ofright-down p{
-        font-size: 1.2rem;
+        font-size: 2.75vw;
     }
     .offer-righthd{
         width: 30vw;
     }
     #money{
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 14px 0px 15px 100px;
     }
-    .starts-at .start span{
-        font-size: 1rem;
-    }
     .overline{
-        font-size: 2rem;
+        font-size: 1.5rem;
         
     }
     .discounted{
         font-weight: 400;
-        font-size: 2.5rem;
+        font-size: 2.25vw;
 
     }
     .permonth ,.then span,.ofright-down > div:last-child p{
-        font-size: 1rem;
+        font-size: .8125rem;
+    }
+    .price-row {
+        margin: 0;
     }
     .ofright-down{
         padding: 30px 15px;
     }
     .integration-section h2{
         font-size: 2.5rem;
-        width: 65%;
-    }
-    .integration-item img {
-        width: 120px;
-        height: 120px;
-    }
-    .integration-item p{
-        font-size: 1rem;
-        width: 100%;
-
-    }
-    .integration-item h3 {
-        font-size: 1.2em;
     }
     .integration-grid{
         gap: 30px;
@@ -1572,38 +1579,21 @@ footer{
         padding-top: 45px;
     }
     .millihd h2 {
-        font-size: 2.5rem;
-    }
-    .sign-up a{
-        font-size: 1.1rem;
+        font-size: 2.75vw;
     }
     .disclaimer .disclaimer-list{
-        font-size: 0.8rem;
+        font-size: 0.6875rem;
+        padding: 2% 5%;
     }
     .Related ul{
         flex-wrap: wrap;
         row-gap: 15px;
         padding: 40px 0;
     }
-    .Related ul p{
-        font-size: 1.2rem;
-
-    }
-    .Related ul a{
-        font-size: 1rem;
-    }
     .footer-mid .products p, .footer-mid .resources p, .footer-mid .community p, .footer-mid .company p, .footer-mid .help p {
-        font-size: 1.2rem;
         padding-bottom: 0px;
     }
-    .footer-mid ul li a {
-        font-size: 1rem;
-    }
-    .check-it img {
-        width: 180px;
-    }
     .check-it p {
-        font-size: 1rem;
         width: 90%;
     }
     .check-it{
@@ -1611,28 +1601,17 @@ footer{
          width: 21%;
     }
     .footer-mid{
-        gap: 30px;
+        padding: 80px 0 80px 80px ;
+        justify-content: space-around;
     }
-    .check-it .alignlines3 a{
-        font-size: 1rem;
-    }
-    .intuit .svg1 svg, .intuit .svg2 svg, .intuit .svg5 svg {
-        width: 85px;
-    }
-    .intuit .svg3 svg, .intuit .svg4 svg {
-        width: 100px;
+    .footer-mid ul li {
+        padding-top: 0.8125rem;
     }
     .footer-last{
         gap: 30px;
     }
-    .playstore .appstore img {
-        width: 120px;
-    }
-    .playstore .socialmedia img {
-        width: 25px;
-    }
-    .playstore .gdpr img {
-        width: 120px;
+    .footer-last .intuit{
+        gap: 30px;
     }
     .footer-last .playstore{
         gap: 50px;
@@ -1645,15 +1624,10 @@ footer{
     }
     .translate select {
         width: 200px;
-        height: 40px;
-        font-size: 1rem;
-    }
-    .rights-para p{
-        font-size: 0.75rem;
+        height: 45px;
     }
     .rights-hd .privacy li a{
         font-weight: 700;
-        font-size: 0.75rem;
     }
     .footer-last .copyrights{
         padding: 0px 290px
