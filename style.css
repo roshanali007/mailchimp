@@ -1355,7 +1355,7 @@ footer{
 .hidedesktop{
     display: none;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
     .side-login a{
         font-size: 1.1rem;
     }
