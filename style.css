@@ -2000,10 +2000,7 @@ footer{
         padding: 80px 40px;
     }
     .con-hd .upto, .con-hd .exp {
-        width: auto;
-    }
-    .con-hd .exp{
-        padding: 0px 65px 0 110px;
+        width: 65%;
     }
     .ppt-det{
         padding: 0px 0 40px;
