@@ -53,16 +53,25 @@ function closesidebar(){
     });
 
 function toggleDropdown(button) {
-    
-    const allDropdownItems = document.querySelectorAll(".dropdown-item");
-    allDropdownItems.forEach(item => {
-        if (item !== button.parentElement) {
-            item.classList.remove("open");
-        }
-    });
+  const dropdownId = button.getAttribute("data-dropdown");
+  const dropdown = document.getElementById(dropdownId);
 
-    
-    button.parentElement.classList.toggle("open");
+  
+  document.querySelectorAll(".dropdown-content").forEach(item => {
+    if (item !== dropdown) item.classList.remove("open");
+  });
+
+  
+  dropdown.classList.toggle("open");
+
+  
+  document.querySelectorAll(".dropdown-btn .arrow-icon").forEach(icon => {
+    icon.style.transform = "rotate(0deg)";
+  });
+
+  if (dropdown.classList.contains("open")) {
+    button.querySelector(".arrow-icon").style.transform = "rotate(180deg)";
+  }
 }
 
 
