@@ -1745,7 +1745,7 @@ header .header_menu .right_ul{
         flex-wrap: wrap;
     } 
     .footer_end .footer_language{
-        width: 334px;
+        width: 90%;
         padding-right: 0;
     } 
     .footer_last .footer_copyrights {
