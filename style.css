@@ -116,6 +116,9 @@ a{
 .brandLogoMailchimp{
     padding-left: 20px;
 }
+.tab_768{
+        display: none;
+}
 aside{
     font-size: 0.8125rem;
     display: flex;
@@ -290,14 +293,14 @@ header .header_menu .right_ul{
     margin-top: 2px;
     display: inline-block;
 }
- .login_color a{
+.login_color a{
     background-color:rgba(35, 30, 21, 0);
 }
- .log_in a{
+.log_in a{
     padding: 12px 24px;
     text-align: center;
     box-sizing: border-box;
-    color:#231e15 ;
+    color:#231e15;
     font-size: 0.8125rem;
     font-weight: 500;
     line-height: 1.5;
@@ -310,19 +313,12 @@ header .header_menu .right_ul{
     white-space: nowrap;
     font-family: var(--font-header);
     border: 1px solid;
-
 }
- .log_in a::before{
-    content: "";
-    border-radius: 2em;
-    width: 100%;
-    height: 100%;
-    transition: bottom .3s cubic-bezier(.5,2.5,.7,.7);
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.log_in a:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 4px 0 #231e15
 }
- .sign_up a{
+.sign_up a{
     background-color: #ffe01b;
 }
 .email1{
@@ -385,11 +381,11 @@ header .header_menu .right_ul{
     display: flex;
     flex-direction: column;
 }
-.images .img-container{
+/* .images .img-container{
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-auto-rows: 1fr;
-}
+} */
 .img-container img{
     width: 100%;
     height: auto;
@@ -642,9 +638,13 @@ header .header_menu .right_ul{
     padding-right: 2.5rem;
     line-height: 2rem;
     text-decoration: none;
-    transition: color .15s ease-in-out, transform .3s;
+    transition: color .15s ease-in-out, transform .3s,padding 0.3s ease;
     position: relative;
     transform: translate(0);
+}
+.learn_more .learn_text:hover{
+    padding-right: 2rem;
+    padding-left: 0.3rem;
 }
 .learn_more .learn_text::before{
     content: "";
@@ -662,6 +662,9 @@ header .header_menu .right_ul{
     bottom: 0;
     right: 0;
     left: calc(100% - 2rem);
+}
+.learn_more .learn_text:hover::before{
+    left: 0;   
 }
 .product_tour .product_img{
     display: flex;
@@ -711,6 +714,10 @@ header .header_menu .right_ul{
 }
 .membership_main .membership_left em{
     font-style: var(--font-fontone);
+    /* border-bottom: 1px solid #ffe01b; */
+    text-decoration-line:underline ;
+    text-decoration-color:#ffe01b ;
+    text-decoration-thickness: 0.5rem;
 }
 .membership_left .membership_para{
     margin-bottom: 24px;
@@ -971,15 +978,9 @@ header .header_menu .right_ul{
     border: 1px solid #231e15;
 
 }
-.buy_now .boy_now_div a::before{
-    content: "";
-    border-radius: 2em;
-    width: 100%;
-    height: 100%;
-    transition: bottom .3s cubic-bezier(.5,2.5,.7,.7);
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.buy_now .boy_now_div a:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 4px 0 #231e15;
 }
 .membership_right .see_terms{
     text-align: left;
@@ -1092,6 +1093,10 @@ header .header_menu .right_ul{
     align-items: center;
     margin-top: 40px;
 }
+.sign_mill a:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 4px 0 #f6f6f6;
+}
 .disclaimer{
     padding: 40px 0;
     background-color: #f5f5f5;
@@ -1168,7 +1173,7 @@ header .header_menu .right_ul{
 .footer_mid_div .footer_mid_con{
     display: flex;
     align-items: flex-start;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     max-width: 75rem;
     margin: 0 auto;
 }
@@ -1365,6 +1370,9 @@ header .header_menu .right_ul{
     .top_section {
         display: none;
     }
+    .tab_768{
+        display: none;
+    }
     .laptop_1440{
         display: none;
     }
@@ -1507,6 +1515,12 @@ header .header_menu .right_ul{
 @media screen and (max-width:768px){
     .hideon425{
         display: block;
+    }
+    .tab_768{
+        display: block;
+    }
+    .exp-container {
+        grid-template-columns: repeat(2,50%);
     }
     .membership_main{
         flex-direction: column;
@@ -1859,7 +1873,7 @@ header .header_menu .right_ul{
         gap: 12px;
     }
     .integration_content .integration_list{
-        width:168.625px;
+        width:47%;
         background: #f6f6f4;
     }
     .integration_content ul li a {
@@ -1926,4 +1940,4 @@ header .header_menu .right_ul{
         width: 100%;
         padding-right: 1.25rem;
     }     
-}
+}                            
